@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
-import { NavBar } from '../component/navbar';
+import { Header } from '../component/header';
+import { Footer } from '../component/footer';
+
 
 export const withLayout = (WrappedComponent) => {
     return class ComponentwithLayout extends Component {
         render() {
-            return <div><NavBar /><WrappedComponent {...this.props} /></div>
+            return <div><Header /><WrappedComponent {...this.props} /><Footer/></div>
         }
     }
 }
