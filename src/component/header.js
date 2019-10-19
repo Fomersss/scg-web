@@ -11,9 +11,6 @@ export const Header = () =>
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="/findvalue">Find XYZ</a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link" href="/restaurant">Restaurant</a>
             </li>
           </ul>
