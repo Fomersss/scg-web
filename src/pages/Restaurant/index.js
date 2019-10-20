@@ -4,6 +4,9 @@ import * as _ from 'lodash';
 import StarRatingComponent from 'react-star-rating-component';
 import restaurantPic from '../../assets/img/restaurant.png';
 
+/* import findvalue from controller
+    import {findValue} from '../../controllers/scg'
+**/
 
 
 export class Restaurant extends Component {
@@ -35,7 +38,6 @@ export class Restaurant extends Component {
 
   render() {
     const { restaurant } = this.state;
-    console.log('restaurant ==> ', restaurant);
     return (
       <Fragment>
         <div className ="container-layout">
