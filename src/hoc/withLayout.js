@@ -11,7 +11,6 @@ export const withLayout = (WrappedComponent) => {
                 <div className="container">
                     <WrappedComponent {...this.props} />
                 </div>
-                <div class="push"></div>
                 <Footer />
             </Fragment>
         }

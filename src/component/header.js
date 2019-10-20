@@ -15,6 +15,6 @@ export const Header = () =>
             </li>
           </ul>
         </div>
-      </div>
+        </div>
     </nav>
   </Fragment>

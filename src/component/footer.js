@@ -2,9 +2,9 @@ import React, { Fragment } from 'react';
 
 export const Footer = () =>
   <Fragment>
-    <div className="footer">
+    <div>
       <footer className="page-footer font-small text-white bg-dark pt-4 ">
-        <div className="container">
+      <div className="container">
           <ul className="list-unstyled list-inline text-center">
             <li className="list-inline-item">
               <a className="btn-floating btn-fb mx-1" href="https://www.facebook.com/Fomest">
@@ -22,9 +22,9 @@ export const Footer = () =>
               </a>
             </li>
           </ul>
-        </div>
         <div className="footer-copyright text-center py-3">© 2019 Copyright:
-    <a title="sss" href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    <a title="sss" href="https://github.com/Fomersss/scg-web"> Fomersss</a>
+        </div>
         </div>
       </footer>
     </div>
